@@ -8,14 +8,6 @@ nav a {
     background-color:white;
     color: teal;
 }
-
-    
-
-@media only screen and (max-width:768) {
-    nav a {
-        background-color: yellow;
-    }
-}
 /* display header nav */
 
 .main-header {
@@ -167,13 +159,13 @@ a:hover {
 transition: 3s;
 }
 .pottery:hover {
-    transform: translate(30,40);
+    transform: translate(50,50);
 }
 .club {
     transition: 3s
 }
 .club:hover {
-    transform: rotate(35deg);
+    transform: rotate(20deg);
 }
 
 .frontline {
@@ -182,7 +174,6 @@ transition: 3s;
 .frontline:hover {
     transform: scale(1,1.5);
 }
-/* @media query */
-/* tablet */
+
 
 
