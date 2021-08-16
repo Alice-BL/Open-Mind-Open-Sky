@@ -2,7 +2,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+nav a {
+    display: flex;
+    background-color:white;
+    color: teal;
+}
 
+    
+
+@media only screen and (max-width:768) {
+    nav a {
+        background-color: yellow;
+    }
 }
 /* display header nav */
 
@@ -39,7 +51,7 @@ header nav {
     text-align: center;
     font-size: 30px;
 }
-.previous-work {
+.frontline {
     display: flex;
     flex-direction: column;
     background-image: url('assets/images/stay_safe');
@@ -49,9 +61,10 @@ header nav {
     position: relative;
     text-align: left;
 }
+
 .top-left {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left:10%;
     text-align: left;
     font-size: 20px;
@@ -59,35 +72,53 @@ header nav {
     font-weight: bolder;
     line-height: 2.0;
 }
-
-.done-reading {
+.club {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-width: 1px;
     display: flex;
     flex-direction: column;
-    background-image: url('assets/images/book_cover');
-    align-items: center;
-    justify-content:start;
-    width: 50%;
     position: relative;
+    width: 50%;
+}
+.club header, .frontline header, .pottery header {
+    padding: 20px;
+    background-color:white;
+    color: teal;
+    font-weight: bold;
+    font-size: 20px;
 }
 li1 { 
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 10%;
-    font-size: 20px;
+    font-size: 16px;
 }
 li2 {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 10%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 li3 {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 10%;
-    font-size: 20px;
+    font-size: 16px;
 }
+.pottery {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+}
+
 
 h1 {
     font-size: 40px;
@@ -107,16 +138,9 @@ h2  {
     text-align:center;
 } 
 
-
-
-
-.about-me {
+.about-me, .contact-me{
     display: inline-block;
 
-}
-.contact-me {
-    display: inline-block;
-    
 }
 
 .avatar {
@@ -128,16 +152,37 @@ h2  {
     
 }
 
-.image2, .image3 {
+.image2, .image3, .image4 {
     width: 100%;
     height: 100%;
     border-style: groove;
     border-color:darkslategrey;
 }
 
+a:hover {
+    color:orangered;
+}
+/* transform_translate */
+.pottery {
+transition: 3s;
+}
+.pottery:hover {
+    transform: translate(30,40);
+}
+.club {
+    transition: 3s
+}
+.club:hover {
+    transform: rotate(35deg);
+}
 
-
-
-
+.frontline {
+    transition: 2s;
+}
+.frontline:hover {
+    transform: scale(1,1.5);
+}
+/* @media query */
+/* tablet */
 
 
