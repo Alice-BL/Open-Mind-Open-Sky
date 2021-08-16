@@ -7,5 +7,10 @@ Portfolio
 
 
 6. Screenshot of the website
-![portfolio](http:url/to/capture.jpg)
+![portfolio](https://raw.githubusercontent.com/Alice-BL/Open-Mind-Open-Sky/main/assets/images/Capture.PNG)
+
+7. The URL of the deloyed aplliaction
+https://alice-bl.github.io/Open-Mind-Open-Sky/
+
+
 
