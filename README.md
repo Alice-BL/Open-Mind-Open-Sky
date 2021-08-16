@@ -12,5 +12,8 @@ Portfolio
 7. The URL of the deloyed aplliaction
 https://alice-bl.github.io/Open-Mind-Open-Sky/
 
+8. The link of my repo on github
+https://github.com/Alice-BL/Open-Mind-Open-Sky
+
 
 
