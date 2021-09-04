@@ -20,5 +20,9 @@ https://alice-bl.github.io/Open-Mind-Open-Sky/
 13. The link of my repo on github
 https://github.com/Alice-BL/Open-Mind-Open-Sky
 
-
+(Note for myself: neu muon position 2 box nam sat nhau thi dat ca 2 hinh vao trong cung 1 div, va set up again:
+div {
+    display: flex;
+    width: 100%;
+}
 
