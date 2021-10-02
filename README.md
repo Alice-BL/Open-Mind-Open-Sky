@@ -15,15 +15,12 @@ Portfolio
 ![portfolio](https://raw.githubusercontent.com/Alice-BL/Open-Mind-Open-Sky/main/assets/images/Capture.PNG)
 
 12. The URL of the deloyed aplliaction
-https://alice-bl.github.io/Open-Mind-Open-Sky/
+https://thutuephan.github.io/Open-Mind-Open-Sky/
+
 
 13. The link of my repo on github
-https://github.com/Alice-BL/Open-Mind-Open-Sky
+https://github.com/thutuephan/Open-Mind-Open-Sky
 
-(Note for myself: neu muon position 2 box nam sat nhau thi dat ca 2 hinh vao trong cung 1 div, va set up again:
-div {
-    display: flex;
-    width: 100%;
-}
+
 
 
